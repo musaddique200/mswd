@@ -12,7 +12,7 @@ Welcome to the Used Goods Marketplace project! This repository contains the back
 
 Install dependencies:
 
-npm install
+   npm install
 
 Start the server (port 5000):
 
@@ -28,7 +28,7 @@ cd ui/
 
 Install dependencies:
 
-npm install
+   npm install
 
 Start the UI server (port 3000):
 
