@@ -1,3 +1,5 @@
+bash
+
 # 🛍️ Used Goods Marketplace 🛒
 
 Welcome to the Used Goods Marketplace project! This repository contains the backend and frontend code for our platform where users can buy and sell used goods. 💻
@@ -10,28 +12,38 @@ Welcome to the Used Goods Marketplace project! This repository contains the back
    ```bash
    cd server/
 
-###Install dependencies:
-   ```bash
-   npm install
+    Install dependencies:
 
-###Start the server (port 5000):
-    ```bash
+    bash
+
+npm install
+
+Start the server (port 5000):
+
+bash
+
     npm start
 
-###The directory server is now running on port 5000. 🚀
+    The directory server is now running on port 5000. 🚀
 
-###UI Server
+UI Server
 
-###Navigate to the UI directory:
-   ```bash
-   cd ui/
+    Navigate to the UI directory:
 
-###Install dependencies:
-   ```bash
-   npm install
+    bash
 
-###Start the UI server (port 3000):
-    ```bash
-    npm start
+cd ui/
 
-###The UI server is now running on port 3000. 🎨
+Install dependencies:
+
+bash
+
+npm install
+
+Start the UI server (port 3000):
+
+bash
+
+npm start
+
+The UI server is now running on port 3000. 🎨
