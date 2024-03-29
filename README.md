@@ -25,7 +25,7 @@ Start the server (port 5000):
 ```
 The directory server is now running on port 5000. 🚀
 
-###UI Server
+UI Server
 
 Navigate to the UI directory:
 
