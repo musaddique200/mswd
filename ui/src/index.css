@@ -1,0 +1,47 @@
+/* Reset default styles and set global styles */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center content vertically and horizontally */
+main {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Code block styling */
+code {
+  background: #f0f0f0;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+/* Button styling */
+input[type='submit'],
+button[type='submit'] {
+  border: none;
+  background: cornflowerblue;
+  color: white;
+  padding: 12px 24px;
+  margin: 8px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on buttons */
+input[type='submit']:hover,
+button[type='submit']:hover {
+  background: #007bff; /* Change to a darker shade for hover effect */
+}
